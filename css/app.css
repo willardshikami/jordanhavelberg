@@ -1,4 +1,17 @@
+/*
+  ========================================
+  wrapper
+  ========================================
+*/
+
+.page-wrap {
+  text-align: left;
+  width: 800px;
+  margin: 0 auto;
+}
+
 body {
+    text-align: center;
     background: #524B58;
 }
 
@@ -9,8 +22,6 @@ body {
 */
 
 .jordan {
-    background: ;
-    padding-top:20px; 
     text-align: center;
 }
 
