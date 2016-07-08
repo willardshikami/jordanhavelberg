@@ -1,10 +1,63 @@
+body {
+    background: #524B58;
+}
+
+/*
+  ========================================
+  Header
+  ========================================
+*/
+
 .jordan {
+    background: ;
+    padding-top:20px; 
     text-align: center;
 }
+
+.jordan h1 {
+    color: #ffa500;
+}
+
+.span_1_of_3,
+.span_1_of_3 h1,
+.span_1_of_3 h3{
+    color: #fff;
+}
+
+/*
+  ========================================
+  grid
+  ========================================
+*/
 
 .span_1_of_3{
 	width: 32.26%; 
 }
+
+/*
+  ========================================
+  GO FULL WIDTH AT LESS THAN 480 PIXELS
+  ========================================
+*/
+
+
+@media only screen and (max-width: 480px) {
+	.span_3_of_3 {
+		width: 100%; 
+	}
+	.span_2_of_3 {
+		width: 100%; 
+	}
+	.span_1_of_3 {
+		width: 100%;
+	}
+}
+
+/*
+  ========================================
+  Footer
+  ========================================
+*/
 
 .footer_1_of_3{
     width: 32.26%;
@@ -24,33 +77,27 @@
     padding-top: 60px;
 }
 
-
-background-image: url("../images/joker.jpg");
-
-/*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
-
-@media only screen and (max-width: 480px) {
-	.span_3_of_3 {
-		width: 100%; 
-	}
-	.span_2_of_3 {
-		width: 100%; 
-	}
-	.span_1_of_3 {
-		width: 100%;
-	}
-}
-
-/*  SECTIONS  */
+/*
+  ========================================
+  Sections
+  ========================================
+*/
 
 .section {
 	clear: both;
 	padding: 0px;
 	margin: 0px;
+    background-image: url("../images/bg.jpg"); 
+    background-repeat: no-repeat; 
+    background-size: 100%;
 }
 
-/*  GROUPING */
 
+/*
+  ========================================
+  Grouping
+  ========================================
+*/
 
 .group:before,
 .group:after {
@@ -64,7 +111,11 @@ background-image: url("../images/joker.jpg");
     zoom:1; /* For IE 6/7 (trigger hasLayout) */
 }
 
-/*  GRID COLUMN SETUP   */
+/*
+  ========================================
+  Grid Colomn Setup
+  ========================================
+*/
 
 .col {
 	display: block;
@@ -83,6 +134,27 @@ background-image: url("../images/joker.jpg");
 	}
 }
 
-.plain {
-    padding: 100px;
+/*
+  ========================================
+  Button
+  ========================================
+*/
+
+
+.btn {
+    background: #343434;
+    border-radius: 35px;
+    color: #ffa500;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 400;
+    letter-spacing: .5px;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.btn-alt {
+    text-align: center;
+    border: 1px solid ;
+    padding: 10px 20px;
 }
