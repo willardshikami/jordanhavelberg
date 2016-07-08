@@ -24,6 +24,9 @@
     padding-top: 60px;
 }
 
+
+background-image: url("../images/joker.jpg");
+
 /*  GO FULL WIDTH AT LESS THAN 480 PIXELS */
 
 @media only screen and (max-width: 480px) {
