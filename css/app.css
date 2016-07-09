@@ -8,13 +8,13 @@
     text-align: left;
     width: 700px;
     margin:  0 auto;
-    background: #524B58;
+    background: #565A69;
 
 }
 
 body {
     text-align: center;
-
+    background: #000;
 }
 
 /*
@@ -57,6 +57,18 @@ body {
     font-size: 30px;
 }
 
+.mid-section h1{
+    font-size: 40px;
+}
+
+.mid-section h2{
+    font-size: 30px;
+    font-weight: 200px;
+    padding-bottom: 20px;
+}
+
+
+
 /*
   ========================================
   grid
@@ -87,6 +99,17 @@ body {
 	}
 }
 
+@media only screen and (max-width: 480px) {
+	.footer_3_of_3 {
+		width: 100%; 
+	}
+	.footer_2_of_3 {
+		width: 100%; 
+	}
+	.footer_1_of_3 {
+		width: 100%;
+	}
+}
 /*
   ========================================
   Footer
@@ -94,7 +117,9 @@ body {
 */
 
 .footer_1_of_3{
-    width: 32.26%;
+    background: #524B58;
+    color: #fff;
+    width: 33.33%;
     text-align: center;
 }
 
@@ -120,6 +145,10 @@ body {
     height: 630px;
 }
 
+.mid-section {
+    color: #fff;
+    text-align: center;
+}
 
 /*
   ========================================
@@ -148,11 +177,27 @@ body {
 
 .col {
 	display: block;
-	float:left;
+	float: left;
 	margin: 1% 0 1% 1.6%;
 }
 
+.coll {
+	display: block;
+	float: left;
+	margin: 1% 0 1% 0;
+}
+
+.one{
+    border-right: 2px solid #ddd;
+}
+
+.two {
+    border-right: 2px solid #ddd;
+}
+
 .col:first-child { margin-left: 0; } /* all browsers except IE6 and lower */
+
+.one { margin-left: 0%; } /* all browsers except IE6 and lower */
 
 
 /*  REMOVE MARGINS AS ALL GO FULL WIDTH AT 480 PIXELS */
