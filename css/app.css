@@ -6,8 +6,8 @@
 
 .page-wrap {
   text-align: left;
-  width: 800px;
-  margin: 0 auto;
+  width: 700px;
+  margin:  auto;
 }
 
 body {
@@ -34,6 +34,26 @@ body {
 .span_1_of_3 h3{
     color: #fff;
 }
+.first{
+    text-align: right;
+    padding-top: 60px;
+}
+
+.second {
+    text-align: center;
+}
+
+.third {
+    padding-top: 60px;
+}
+
+.span_1_of_3 h3 {
+    font-size: 22px;
+}
+
+.second h1 {
+    font-size: 30px;
+}
 
 /*
   ========================================
@@ -42,7 +62,8 @@ body {
 */
 
 .span_1_of_3{
-	width: 32.26%; 
+	width: 32.26%;
+    text-align: center;
 }
 
 /*
@@ -75,19 +96,6 @@ body {
     text-align: center;
 }
 
-.first{
-    text-align: right;
-    padding-top: 60px;
-}
-
-.second {
-    text-align: center;
-}
-
-.third {
-    padding-top: 60px;
-}
-
 /*
   ========================================
   Sections
@@ -98,9 +106,16 @@ body {
 	clear: both;
 	padding: 0px;
 	margin: 0px;
+}
+
+.main-section {
     background-image: url("../images/bg.jpg"); 
     background-repeat: no-repeat; 
     background-size: 100%;
+    opacity: 0.5;
+    background-color: #fff;
+    filter: alpha(opacity=50); /* For IE8 and earlier */
+    height: 630px;
 }
 
 
