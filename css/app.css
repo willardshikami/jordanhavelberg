@@ -5,14 +5,16 @@
 */
 
 .page-wrap {
-  text-align: left;
-  width: 700px;
-  margin:  auto;
+    text-align: left;
+    width: 700px;
+    margin:  0 auto;
+    background: #524B58;
+
 }
 
 body {
     text-align: center;
-    background: #524B58;
+
 }
 
 /*
@@ -135,6 +137,7 @@ body {
 }
 .group {
     zoom:1; /* For IE 6/7 (trigger hasLayout) */
+    padding-top: 120px;
 }
 
 /*
