@@ -330,3 +330,24 @@ body {
     font-weight: 700;
     text-transform: inherit;
 }
+
+/*
+  ========================================
+  Hover Effect
+  ========================================
+*/
+
+
+.second img {
+  filter: url(filters.svg#grayscale);
+  /* Firefox 3.5+ */
+  filter: gray;
+  /* Internt Explorer 6-9 */
+  -webkit-filter: grayscale(1);
+  /* Google Chrome & Safari 6+ */
+}
+
+.second img:hover {
+  filter: none;
+  -webkit-filter: none;
+}
