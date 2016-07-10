@@ -198,11 +198,10 @@ body {
 
 .main-section {
     background-image: url("../images/bg.jpg"); 
+    background: rgba();
     background-repeat: no-repeat; 
     background-size: 100%;
-    opacity: 0.5;
-    background-color: #fff;
-    filter: alpha(opacity=50); /* For IE8 and earlier */
+     /* For IE8 and earlier */
     height: 640px;
 }
 
